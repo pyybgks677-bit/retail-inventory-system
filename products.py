@@ -1,6 +1,7 @@
 # product.py
 class Product:
-    def __init__(self, name, stock=0):
+    def __init__(self, id, name, stock=0):
+        self.id = id
         self.name = name
         self.__stock = stock  # private stock for encapsulation
 
